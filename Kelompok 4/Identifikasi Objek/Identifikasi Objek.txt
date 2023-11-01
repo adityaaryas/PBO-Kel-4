@@ -1,0 +1,66 @@
+Identifikasi 
+1. Akun
+	- Akun bisa melakukan Login dan Logout
+	- Akun bisa melihat riwayat donasi
+	- Akun bisa melakukan donasi dan meminta donasi
+	- bisa merubah profile akun
+2. Donasi
+	- kelas yang memiliki kemampuan untuk donasi
+	- donasi bisa di kategorikan (makanan siap saji, sembako, dan uang)
+	- bisa di akses oleh pengguna
+3. Emergency food
+	- Kelas yang memiliki kemampuan untuk meminta donasi
+	- bisa meminta donasi sesuai kategori
+4. Food Information
+	- kelas ini digunakan untuk pengambilan kupon donasi
+	- kupon tersebut berisi jadwal dan tempat pengambilan
+5. Resep Makanan Sehat
+	- Resep Makanan sehat digunakan untuk melihat menu makanan
+	- pengguna bisa memberikan rating pada resep yang tertera
+6. Connection
+	- kelas ini digunakan untuk membuat koneksi antara database mysql dan java
+	- suda ada library jdbc driver dan kerangka koneksinya, tapi belum konek karena kita mentok
+7. Main
+	- Belum sampai ke main karena masih bingung di kelas lainnya
+
+note: kita masih membutuhkan kelas untuk simpan donasi, tapi masih belum kita buat karena ingin membereskan kelas sebelumnya
+
+Kelas dan Atribut kelas dan Atribut
+1. Akun
+	- Username
+	- Password
+	- Email
+	- Nama
+	- Foto Profil
+	- Riwayat Donasi
+	- Alamat
+	- Jenis Kelamin
+	- No. Telepon
+	- Setting
+2. Donasi
+	- ID Donasi
+	- Tanggal Donasi
+	- Pengirim Donasi
+	- Jumlah Donasi
+	- Status Donasi
+	- Kategori Donasi
+	- Alamat
+	- Ambil Donasi
+3. Emergency Food
+	- ID Permintaan
+	- Tanggal Permintaan
+	- Kategori Permintaan
+	- Status Permintaan
+	- Penerima Donasi
+	- Metode Pengiriman
+	- room chat
+4. Food Information
+	- Kupon
+	- ID Donasi (untuk mengambil data donasi yang akan kita terima)
+5. Resep Makanan Hemat
+	- Nama Makanan
+	- Daftar bahan
+	- Daftar Alat
+	- Langkah-langkah
+	- Gambar Makanan
+	- Rating 
